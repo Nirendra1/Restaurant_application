@@ -1,0 +1,398 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+  background-color: antiquewhite;
+  padding: 5px;
+  margin: 10px;
+  /* margin-right: 29px; */
+}
+
+.list-wrraped {
+  border: 1px solid #ccc;
+  margin: auto;
+  padding: 5px;
+  width: 500px;
+  margin-top: 10px;
+}
+
+.navbar-lam {
+  display: flex;
+  flex: 3;
+  align-items: center;
+  justify-content: center;
+  /* background-color:brown; */
+  background-image: url(https://cdn.dribbble.com/users/3248841/screenshots/9968662/media/fd03580e8e275cc62f4b986eaa9dee07.png); 
+  height: 700px;
+  /* padding-top: 0px; */
+  text-decoration: none;
+  /* color: black; */
+}
+
+.name {
+  flex: 3;
+  font-size: 30px;
+  list-style: none;
+  /* font-style: calc(); */
+  text-decoration: none;
+  margin: 50px;
+  padding-top: 50px;
+  /* margin-top: 30px; */
+  /* color: black; */
+}
+.resto {
+  text-align: center;
+  padding: 15px;
+  /* background-image: ; */
+  background-image: url(https://th.bing.com/th/id/OIP.MoUlO0qB6NftCpiuMWBLaAHaEg?w=261&h=180&c=7&r=0&o=5&pid=1.7);
+}
+.pink {
+  padding: 13px;
+  /* border: black; */
+}
+
+.tom {
+  padding: 13px;
+}
+
+.com {
+  padding: 13px;
+}
+
+.sam {
+  padding: 13px;
+  align-self: center;
+}
+
+.button {
+  /* padding: 13px; */
+  /* color: blue; */
+  /* font-size: 25px; */
+  text-decoration: none;
+  background-color: steelblue;
+  color: pink;
+  border-radius: 5px;
+  width: 100px;
+  cursor: pointer;
+  /* background-color:darkslategrey; */
+
+  /* margin-right: 100px; */
+  /* color: brown; */
+}
+
+.forms {
+  
+  align-items: center;
+  background-image: url('https://static01.nyt.com/images/2017/11/15/t-magazine/oakImage-1510759490294/oakImage-1510759490294-superJumbo.jpg');
+  height: 300px;
+  width: auto;
+}
+
+/* .updat{ */
+/* margin-top:  20px; */
+/* background-color: brown; */
+/* color:teal; */
+/* } */
+
+.lgin {
+  cursor: pointer;
+  background-color: brown;
+
+  color: aquamarine;
+  font-size: 25px;
+}
+
+
+.name1 {
+  /* margin-top: 350; */
+
+  position: fixed;
+  right: 1350px;
+  top: 10px;
+  nav-down: 1500px;
+  height: 250px;
+  font-size: 30px;
+  color:white;
+  text-decoration: none;
+/* padding-top: 10px; */
+}
+.name2{
+  position: fixed;
+  top: 10px;
+
+  right: 1220px;
+  nav-down: 900px;
+  height: 220px;
+  font-size: 30px;
+  margin-right: 25px;
+  color:white;
+
+text-decoration: none;
+
+
+}
+
+.name3{
+text-decoration: none;
+top: 10px;
+
+/* color: cyan; */
+  
+  position: fixed;
+  right: 1090px;
+  nav-down: 800px;
+  height: 220px;
+  font-size: 30px;
+  margin-left: 25px;
+
+  /* color: aqua; */
+  color:white;
+
+}
+
+.name4{
+  /* position: */
+
+
+position: fixed;
+right: 790px;
+top: 10px;
+
+nav-down: 800px;
+height: 220px;
+font-size: 30px;
+margin-left: 25px;
+/* color: cyan; */
+color:white;
+
+text-decoration: none;
+
+}
+
+.name5{
+/* color: cyan; */
+text-decoration: none;
+top: 10px;
+  
+color:white;
+position: fixed;
+  right: 930px;
+  nav-down: 800px;
+  height: 220px;
+  font-size: 30px;
+  margin-left: 25px;
+}
+.name6{
+
+  position: fixed;
+  right: 800px;
+  nav-down: 800px;
+  height: 220px;
+  font-size: 30px;
+
+}
+.name7{
+
+
+  position: fixed;
+  text-decoration: none;
+  top: 10px;
+  color:red;
+  right: 60px;
+  font-size: 30px;
+  margin-left: 25px;
+  nav-down: 800px;
+
+  
+
+}
+
+.signup{
+text-align: center;
+padding: 20px;
+font-size: 70px;
+/* box-shadow: 0px 3px 7px 3px rgba(0,0,0,0,2); */
+
+}
+
+.na1{
+  margin-left: 500px;
+  padding: 15px;
+}
+
+.na2{
+  margin-left: 105px;
+}
+.email{
+margin-left:500px;
+padding-top: 15px;
+}
+
+.email1{
+margin-left:137px;
+}
+
+.password{
+margin-left: 500px;
+padding-top: 15px;
+
+
+}
+.password1{
+margin-left:80px;
+}
+.cpassword{
+margin-left: 500px;
+padding-top: 15px;
+}
+.cpassword1{
+margin-left: 50px;
+}
+.submit1{
+margin-left: 650px;
+background-color: darkblue;
+
+color: white;
+cursor: pointer;
+font-size: 20px;
+margin-top: 20px;
+border-radius: 5px;
+}
+
+
+
+/* ///////////// */
+
+.login{
+text-align: center;
+font-size: 70px;
+padding: 20px;
+}
+.log{
+margin-left: 450px;
+padding-top:20px;
+
+}
+
+.login1{
+margin-left: 100px;
+
+}
+.login2{
+margin-left: 100px;
+height: 25px;
+
+
+}
+
+.pa{
+margin-left: 550px;
+padding-top: 20px;
+
+}
+
+.pass2{
+margin-left: 73px;
+height: 25px;
+}
+
+.button{
+margin-left: 690px;
+font-size: 20px;
+background-color: darkblue;
+color: white;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.button1{
+padding-top: 15px;
+}
+
+
+.edit{
+  color: blue;
+  cursor: pointer;
+}
+.delete{
+  color: red;
+  cursor: pointer;
+}
+/* .delete{ */
+  /* color: blue; */
+/* } */
+
+.Back{
+  background-color:thistle;
+  position: absolute;
+  top: 30px;
+  left: 45px;
+  border-radius: 50px;
+  width: 80px;
+
+}
+.rest{
+  text-align: center;
+  padding: 20px;
+}
+.up{
+  background-color:thistle;
+  position: absolute;
+  right: 1400px;
+  top:40px;
+  width: 80px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.create{
+  text-align: center;
+  padding: 45px;
+}
+.search{
+  text-align: center;
+}
+.input{
+  text-align: center;
+  padding: 35px;
+}
+.bak{
+  position: absolute;
+  top:100px;
+  left: 45px;
+  width: 80px;
+  border-radius: 50px;
+  background-color:thistle;
+}
+
+.logo{
+  position: absolute;
+  right: 200px;
+  top:100px;
+  width: 100px;
+  border-radius: 5px;
+  background-color:cadetblue;
+  color: white;
+  font-size: 23px;
+}
+
+
+
+.upd{
+  text-align: center;
+}
